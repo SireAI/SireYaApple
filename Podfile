@@ -52,3 +52,5 @@ pod 'UITableView+FDTemplateLayoutCell', '~> 1.4'
 pod 'MJRefresh'
 
 
+pod 'XXNibBridge', '~> 2.2'
+

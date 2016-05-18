@@ -28,6 +28,7 @@ class MallViewController: UIViewController, UITableViewSubDelegate {
 		mallModel.fetchMallDataFrom(source: DataSource.MemoryCache)
 		self.mallTableView.mj_header.beginRefreshing()
 //		mallTableView.estimatedRowHeight = 200
+
 	}
 	private func updateUI(data: MallInfor?) {
 		if self.mallAdapter == nil {
@@ -75,5 +76,6 @@ class MallViewController: UIViewController, UITableViewSubDelegate {
 	private func endLoadMore() {
 		self.mallTableView.mj_footer.endRefreshing()
 	}
+
 }
 

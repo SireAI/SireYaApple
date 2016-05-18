@@ -14,6 +14,7 @@ PODS:
   - SwiftDate (3.0.6)
   - UITableView+FDTemplateLayoutCell (1.4)
   - XCGLogger (3.2)
+  - XXNibBridge (2.2.3)
 
 DEPENDENCIES:
   - Alamofire (~> 3.0)
@@ -28,6 +29,7 @@ DEPENDENCIES:
   - SwiftDate
   - UITableView+FDTemplateLayoutCell (~> 1.4)
   - XCGLogger (~> 3.2)
+  - XXNibBridge (~> 2.2)
 
 EXTERNAL SOURCES:
   Spring:
@@ -52,5 +54,6 @@ SPEC CHECKSUMS:
   SwiftDate: 520c0e7de224c881fe4213caeca72d482ed3d45f
   UITableView+FDTemplateLayoutCell: 234e1582bcc4e18461af91155123bb96538ed030
   XCGLogger: da1f341f4bb8979db6e1df64232f04d9698402d4
+  XXNibBridge: 70adcf1e85a2b5500d9de5f12781944dc51b0521
 
 COCOAPODS: 0.39.0

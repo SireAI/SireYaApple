@@ -96,6 +96,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods/SwiftDate.framework"
   install_framework "Pods/UITableView_FDTemplateLayoutCell.framework"
   install_framework "Pods/XCGLogger.framework"
+  install_framework "Pods/XXNibBridge.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods/Alamofire.framework"
@@ -110,4 +111,5 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods/SwiftDate.framework"
   install_framework "Pods/UITableView_FDTemplateLayoutCell.framework"
   install_framework "Pods/XCGLogger.framework"
+  install_framework "Pods/XXNibBridge.framework"
 fi

@@ -1,7 +1,6 @@
 //
 //	MallInfor.swift
 import Foundation
-import EVReflection
 
 class MallInfor: SireMessageEvent, ServerMsgInfor {
 	func getResCode() -> Int {
